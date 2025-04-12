@@ -23,6 +23,7 @@ export default function Home() {
       <Accordion type="single" collapsible>
           {users.map((user, index) => (
               <AccordionItem key={index} value={String(index)}>
+
                   <AccordionTrigger>Membro {index}</AccordionTrigger>
                   <AccordionContent>{user}</AccordionContent>
               </AccordionItem>
