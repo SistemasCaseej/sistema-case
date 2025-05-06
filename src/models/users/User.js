@@ -4,7 +4,8 @@
 //Exemplo
 export interface User {
     id: string
-    name: string
-    email: string
+    text: string
+    likes: number
     createdAt: Date
 }
+
